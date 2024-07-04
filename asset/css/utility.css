@@ -1,0 +1,36 @@
+
+
+/*   cols css starts here      */
+
+
+a,
+a:hover,
+a:active,
+a:focus
+{
+	color: black;
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+
+.pre-heading{
+	color: #010101;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.sec-heading{
+	color: #313841;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.info{
+	color: #555555;
+	font-size: 16px;
+	font-weight: normal;
+
+}

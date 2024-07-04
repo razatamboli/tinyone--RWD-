@@ -1,0 +1,211 @@
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	background-color: #fcdb00;
+	padding-top: 60px;
+	padding-bottom: 110px;
+}
+
+.header .mein-navbar{
+	background-color: #fcdb00;
+	border-style: none;
+}
+
+.mein-navbar .navbar-nav>li>a{
+	color: #010101;
+	text-transform: capitalize;
+}
+
+.header .pre-heading{
+	font-size: 32px;
+	font-weight: bold;
+	color: #010101;
+	margin-top: 130px;
+	margin-bottom: 20px;
+}
+
+.header .sec-heading{
+	color: #313841;
+	font-size: 20px;
+	font-weight: normal;
+	margin-bottom: 20px;
+}
+
+.header .info{
+	color: #555555;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 40px;
+}
+
+.header .ipad{
+	margin-top: 45px;
+}
+
+.inspiration i{
+	margin-right: 35px;
+}
+
+.inspiration i:hover{
+	 transform: scale(1.2);
+	 transition: all 0.3s linear;
+}
+
+/*   tiny-features css starts from here     */
+
+.tiny-features{
+	padding: 115px 0 80px 0;
+}
+
+.features-info .pre-heading{
+	text-align: center;
+}
+
+.features-info .sec-heading{
+	text-align: center;
+	margin-bottom: 95px;
+}
+
+.feature-icons .pre-heading{
+	font-size: 22px;
+	margin-top: 0;
+}
+
+.feature-icons .info{
+	font-size: 16px;
+}
+
+/*   tiny-features css starts from here     */
+
+.footer{
+	background-color: #010101;
+	padding: 95px 0 140px 0;
+}
+
+.footer .pre-heading{
+	color: #fcdb00;
+	font-size: 32px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+
+.footer .info{
+	color: #898989;
+	font-size: 20px;
+	text-align: center;
+}
+
+.footer input{
+	height: 45px;
+}
+
+.footer .btn{
+	background-color: #fbdb00;
+	border-style: none;
+	height: 45px;
+}
+
+.footer .navbar-form{
+	width: 100%;
+    margin: 0;    
+}
+
+.footer .form-group{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.footer a{
+	margin-right: 20px;
+	color: #fbdb00;
+	display: inline-block;
+}
+
+.footer a:hover{
+	color: #fbdb00;
+	transform: scale(1.2);
+}
+
+.footer .icon-footer{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 1200px){
+	.mein-navbar .navbar-nav>li{
+		margin: 0 20px;
+	}
+	.mein-navbar .navbar-nav>li>a{
+		margin-top: 15px;
+	}
+	.mein-navbar .navbar-nav>li>a:hover{
+	     transform: scale(1.2);
+	     transition: all 0.3s linear;
+	}	
+}
+
+@media all and (min-width: 900px){ 
+	.mein-navbar .navbar-brand{
+		margin-bottom: 20px;
+	}
+}
+
+@media all and (min-width: 768px){  
+	.mein-navbar .navbar-brand{
+		margin-bottom: 20px;
+	}
+	.footer .form-control {
+        width: calc(100% - 85px);
+    }
+	.feature-icons{
+	margin-bottom: 85px;
+    }
+}
+
+@media all and (max-width: 766px){  
+	.mein-navbar .navbar-toggle{
+		margin-bottom: 20px;
+	}
+	.footer input{
+        margin-bottom: 20px;
+    }
+	.footer .btn{
+	    width: 100%;
+    }
+}
+
